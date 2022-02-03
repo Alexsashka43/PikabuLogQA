@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class LogInTest(unittest.TestCase):
 
     
-    """Settings button and field"""
+    """Settings buttons and fields"""
     url = 'https://pikabu.ru/'
     driver = webdriver.Chrome()
     driver.get(url)
